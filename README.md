@@ -6,14 +6,16 @@ A simple script to download image-based Scribd documents. Downloads consecutivel
 
 Simply download `scribDl.py`.
 In your command line, type:
-```pip install requests```
+```bash
+pip install requests
+```
 
 ## Usage
 
 Navigate to the Scribd document webpage. Right click on the document in the browser and hit "inspect" (may be different per browser). The element should be a div with class `document_container`. Copy the entire HTML element and save it into a file.
 
 Run the following command in your terminal window:
-```
+```bash
 python scribDl.py [div_element_filename] [folder_to_save_images]
 ```
 
